@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="src/styles.css" />
+    <title>Pixel Sketch</title>
+  </head>
+  <body>
+    <h1 class="main-heading">Pixel Sketch</h1>
+    <main class="main-container">
+      <div class="control-container">
+        <input class="btn color-input" type="color" class="color-input" value="#000000" />
+        <button class="btn control-btn">Color Mode</button>
+        <button class="btn control-btn">Super Fun Rainbow Mode</button>
+        <button class="btn control-btn">Eraser</button>
+        <button class="btn control-btn">Clear All</button>
+        <div class="grid-size-control">
+          <p class="heading-sm">Grid size:</p class="heading-sm">
+          <input class="btn" type="range" value="16" min="16" max="64" />
+        </div>
+      </div>
+      <div class="grid-container"></div>
+    </main>
+    <script src="src/script.js"></script>
+  </body>
+</html>
